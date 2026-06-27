@@ -1,0 +1,46 @@
+{
+  "statistical_data": {
+    "friends_num": 1,
+    "active_num": 1,
+    "error_num": 0,
+    "article_num": 5,
+    "last_updated_time": "2026-06-27 21:57:30"
+  },
+  "article_data": [
+    {
+      "title": "pagefcircle",
+      "created": "2026-06-21 11:28",
+      "link": "https://blog.rusin.lol/article/2258269158/",
+      "author": "如形の博客",
+      "avatar": "https://blog.rusin.lol/favicon.ico"
+    },
+    {
+      "title": "在 Hexo 中复现洛谷插件",
+      "created": "2026-06-07 18:31",
+      "link": "https://blog.rusin.lol/article/3935900/",
+      "author": "如形の博客",
+      "avatar": "https://blog.rusin.lol/favicon.ico"
+    },
+    {
+      "title": "笔记——树形动态规划",
+      "created": "2026-06-07 17:45",
+      "link": "https://blog.rusin.lol/article/1282611895/",
+      "author": "如形の博客",
+      "avatar": "https://blog.rusin.lol/favicon.ico"
+    },
+    {
+      "title": "题解：AT_pakencamp_2020_day1_d 立方体を壊せ！",
+      "created": "2026-06-06 19:35",
+      "link": "https://blog.rusin.lol/article/425958/",
+      "author": "如形の博客",
+      "avatar": "https://blog.rusin.lol/favicon.ico"
+    },
+    {
+      "title": "题解：P13361 [GCJ 2011 Qualification] Bot Trust",
+      "created": "2026-06-06 19:31",
+      "link": "https://blog.rusin.lol/article/317409/",
+      "author": "如形の博客",
+      "avatar": "https://blog.rusin.lol/favicon.ico"
+    }
+  ]
+}
