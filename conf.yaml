@@ -67,7 +67,7 @@ rss_subscribe:
   enable: true
   github_username: ruying-suixing
   github_repo: Friend-Circle-Lite
-  your_blog_url: https://blog.rusin.lol/
+  your_blog_url: https://blog.rusin7.com
   email_template: "./push_templates/default.html"
   website_info:
     title: "如形の博客"
@@ -84,5 +84,10 @@ smtp:
 # 说明：用于指定特殊 RSS 地址，比如 B 站专栏等不常见 RSS 地址后缀。可以置空，但不要删除此项。
 specific_RSS:
    - name: "如形の博客"
-     url: "https://blog.rusin.lol/atom.xml"
-  #   url: "https://blog.imsyy.top/rss.xml"
+     url: "https://blog.rusin7.com/atom.xml"
+   - name: "梦爱吃鱼"
+     url: "https://blog.bsgun.cn/atom.xml"
+   - name: "清羽飞扬"
+     url: "https://blog.liushen.fun/atom.xml"
+   - name: "無名小栈"
+     url: "https://blog.imsyy.top/rss.xml"
