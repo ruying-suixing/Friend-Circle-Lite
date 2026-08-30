@@ -293,11 +293,19 @@ class FriendCircleCrawlService:
 
         website_map: dict[str, Website] = {}
         for friend in friends_data.get("friends", []):
-            try:
-                website = Website.from_friend_item(friend)
-                website_map[website.url] = website
-            except Exception:
-                logging.warning(f"发现格式异常的友链数据，已跳过: {friend!r}")
+            if isinstance(friend, dict) and "link_list" in friend:
+                for item in friend.get("link_list", []):
+                    try:
+                        website = Website.from_friend_item(item)
+                        website_map[website.url] = website
+                    except Exception:
+                        logging.warning(f"发现格式异常的友链数据，已跳过: {item!r}")
+            else:
+                try:
+                    website = Website.from_friend_item(friend)
+                    website_map[website.url] = website
+                except Exception:
+                    logging.warning(f"发现格式异常的友链数据，已跳过: {friend!r}")
         return list(website_map.values())
 
     def _build_manual_records(self) -> list[CacheRecord]:
