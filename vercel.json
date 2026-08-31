@@ -1,9 +1,10 @@
 {
     "git": {
-      "branch": "page",
       "deploymentEnabled": {
-        "main": false
+        "main": false,
+        "page": true
       }
-    }
+    },
+    "outputDirectory": "."
   }
   

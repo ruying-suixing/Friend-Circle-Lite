@@ -91,3 +91,5 @@ specific_RSS:
      url: "https://blog.liushen.fun/atom.xml"
    - name: "無名小栈"
      url: "https://blog.imsyy.top/rss.xml"
+   - name: "BiuXin-s Blog" 
+     url: "https://blog.biuxin.com/rss.xml"
